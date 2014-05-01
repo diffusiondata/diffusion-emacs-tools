@@ -91,6 +91,7 @@
   "Major mode for viewing Diffusion log files.
 Currently only provides syntax highlighting."
   (setq font-lock-defaults '(diffusion-log-mode-font-lock-defaults))
+  (font-lock-fontify-buffer)
   )
 
 (provide 'diffusion-log-mode)
